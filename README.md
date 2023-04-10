@@ -4,7 +4,7 @@ O objetivo deste projeto é desenvolver uma API em Python, implementando um CRUD
 ## Estrutura do projeto
 O projeto utiliza uma arquitetura MVC (Model-View-Controller), que separa a lógica de negócios da aplicação (Model), da interface do usuário (View) e da interação entre os dois (Controller). Essa arquitetura ajuda a manter o código organizado e fácil de entender, permitindo a escalabilidade e manutenção do código. A estrutura de diretórios do projeto é a seguinte:
 
-.
+`
 ├── controllers
 │   ├── candidate_controller.py
 │   ├── paredao_controller.py
@@ -15,7 +15,7 @@ O projeto utiliza uma arquitetura MVC (Model-View-Controller), que separa a lóg
 │   ├── paredao_model.py
 │   └── vote_model.py
 └── README.md
-
+`
 ## Banco de Dados
 O projeto utiliza o SQLite como banco de dados, que é uma boa opção para pequenos bancos de dados. No entanto, para bancos de dados maiores ou de alta demanda, outros bancos de dados mais escaláveis, como o PostgreSQL ou MySQL, podem ser mais apropriados. Além disso, outras considerações de performance, como a otimização de consultas e o uso de cache, podem ser importantes para garantir a melhor performance possível.
 
